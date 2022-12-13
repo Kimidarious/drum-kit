@@ -27,8 +27,26 @@ main {
 }
 
 .container {
-  background-color: whitesmoke;
   width: 90vh;
   height: 100px;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+.key{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000BB;
+    color: white;
+    font-size: calc(3vw + 20px);
+    border: 3px solid white;
+    user-select: none;
+    cursor: pointer;
 }
