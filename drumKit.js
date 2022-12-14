@@ -39,7 +39,7 @@ const tocarSom = (letra) => {
 const ativarDiv = (evento) => {
   const letra =
     evento.type == "click" ? evento.target.id : evento.key.toUpperCase();
-    
+
   const letraPermitida = sons.hasOwnProperty(letra);
   if (letraPermitida) {
     adicionarEfeito(letra);
