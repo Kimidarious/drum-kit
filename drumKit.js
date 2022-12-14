@@ -7,7 +7,7 @@ const sons = {
   F: "kick.wav",
   G: "openhat.wav",
   H: "ride.wav",
-  J: "share.wav",
+  J: "snare.wav",
   K: "tink.wav",
   L: "tom.wav",
 };
